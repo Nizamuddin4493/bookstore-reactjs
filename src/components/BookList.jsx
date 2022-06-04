@@ -1,4 +1,5 @@
 import React from 'react';
+import Book from './Book';
 import Form from './Form';
 import Header from './Header';
 
@@ -6,11 +7,9 @@ function BookList() {
   return (
     <>
       <Header />
-      <div>Book and Auther Name</div>
-      <div>Book and Auther Name</div>
-      <div>Book and Auther Name</div>
-      <div>Book and Auther Name</div>
-      <div>Book and Auther Name</div>
+      <Book title="Nizam" author="Khan" />
+      <Book title="Ahmad" author="Kaka" />
+      <Book title="Ali" author="mayous" />
       <hr />
       <Form />
     </>
